@@ -1,9 +1,6 @@
 name: build-every-branch
 
-on:
-  push:
-    branches:
-      - '*'
+on: workflow_dispatch
 
 env:
   DOCKERHUB_USERNAME: lyzhang1999
