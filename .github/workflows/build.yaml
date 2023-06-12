@@ -5,6 +5,9 @@ on:
     branches:
       - "main"
 
+env:
+  DOCKERHUB_USERNAME: xueqiut
+
 jobs:
   docker:
     runs-on: ubuntu-latest
