@@ -1,11 +1,11 @@
 frontend:
   image: xueqiut/frontend
-  tag: '1276e23'
+  tag: 424efe3
   autoscaling:
     averageUtilization: 90
 backend:
   image: xueqiut/backend
-  tag: '1276e23'
+  tag: 424efe3
   autoscaling:
     averageUtilization: 90
 database:
@@ -13,4 +13,3 @@ database:
   uri: pg-service
   username: postgres
   password: postgres
-  
