@@ -1,11 +1,11 @@
 frontend:
   image: xueqiut/frontend
-  tag: 424efe3
+  tag: c2b2985
   autoscaling:
     averageUtilization: 90
 backend:
   image: xueqiut/backend
-  tag: 424efe3
+  tag: c2b2985
   autoscaling:
     averageUtilization: 90
 database:
